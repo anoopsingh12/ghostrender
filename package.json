@@ -38,16 +38,23 @@
     "ghost-render",
     "dev-only"
   ],
-  "author": "GhostRender Contributors",
+  "author": "Anoop Singh",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ghostrender/ghostrender.git"
+    "url": "git+https://github.com/anoopsingh12/ghostrender.git"
   },
   "bugs": {
-    "url": "https://github.com/ghostrender/ghostrender/issues"
+    "url": "https://github.com/anoopsingh12/ghostrender/issues"
   },
-  "homepage": "https://github.com/ghostrender/ghostrender#readme",
+  "homepage": "https://github.com/anoopsingh12/ghostrender#readme",
+  "publishConfig": {
+    "access": "public"
+  },
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/anoopsingh12"
+  },
   "peerDependencies": {
     "react": ">=16.8.0"
   },
