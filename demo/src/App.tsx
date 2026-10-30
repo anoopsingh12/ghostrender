@@ -789,7 +789,7 @@ useGhostRender({
       <div className="footer">
         <p>
           Built with ❤️ to make React performance visible ·{' '}
-          <a href="https://github.com/ghostrender/ghostrender" target="_blank" rel="noreferrer">GitHub</a>
+          <a href="https://github.com/anoopsingh12/ghostrender" target="_blank" rel="noreferrer">GitHub</a>
           {' '}·{' '}
           <a href="https://www.npmjs.com/package/ghostrender" target="_blank" rel="noreferrer">npm</a>
           {' '}·{' '}

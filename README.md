@@ -121,7 +121,7 @@ If `ProfileCard` re-renders with the same `userId` and `displayName`, you'll see
 Run the interactive demo locally to see all features in action:
 
 ```bash
-git clone https://github.com/ghostrender/ghostrender.git
+git clone https://github.com/anoopsingh12/ghostrender.git
 cd ghostrender/demo
 npm install
 npm run dev
@@ -747,11 +747,11 @@ ghostrender/
 
 ## Contributing
 
-Contributions are welcome! Please open an issue or pull request on [GitHub](https://github.com/ghostrender/ghostrender).
+Contributions are welcome! Please open an issue or pull request on [GitHub](https://github.com/anoopsingh12/ghostrender).
 
 ```bash
 # Clone
-git clone https://github.com/ghostrender/ghostrender.git
+git clone https://github.com/anoopsingh12/ghostrender.git
 cd ghostrender
 
 # Install
