@@ -6,7 +6,7 @@
  * zero logs, zero bundle impact.
  *
  * Usage:
- *   import { useGhostRender } from 'ghostrender';
+ *   import { useGhostRender } from '@anoopsingh12/ghostrender';
  *
  *   function MyComponent(props) {
  *     useGhostRender({ componentName: 'MyComponent', props });

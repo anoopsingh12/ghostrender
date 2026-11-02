@@ -2,9 +2,9 @@
 
 > **A dev-only React hook that detects and reports unnecessary component re-renders — with zero production overhead.**
 
-[![npm version](https://img.shields.io/npm/v/ghostrender?style=flat-square&color=7c3aed)](https://www.npmjs.com/package/ghostrender)
-[![license](https://img.shields.io/npm/l/ghostrender?style=flat-square&color=10b981)](./LICENSE)
-[![bundle size](https://img.shields.io/bundlephobia/minzip/ghostrender?style=flat-square&color=06b6d4)](https://bundlephobia.com/package/ghostrender)
+[![npm version](https://img.shields.io/npm/v/@anoopsingh12/ghostrender?style=flat-square&color=7c3aed)](https://www.npmjs.com/package/@anoopsingh12/ghostrender)
+[![license](https://img.shields.io/npm/l/@anoopsingh12/ghostrender?style=flat-square&color=10b981)](./LICENSE)
+[![bundle size](https://img.shields.io/bundlephobia/minzip/@anoopsingh12/ghostrender?style=flat-square&color=06b6d4)](https://bundlephobia.com/package/@anoopsingh12/ghostrender)
 [![TypeScript](https://img.shields.io/badge/TypeScript-strict-blue?style=flat-square&logo=typescript)](https://www.typescriptlang.org/)
 [![React](https://img.shields.io/badge/React-%3E%3D16.8-61DAFB?style=flat-square&logo=react)](https://react.dev/)
 
@@ -67,13 +67,13 @@ And in production, the entire library compiles to a **no-op** — zero console c
 
 ```bash
 # npm
-npm install --save-dev ghostrender
+npm install --save-dev @anoopsingh12/ghostrender
 
 # yarn
-yarn add -D ghostrender
+yarn add -D @anoopsingh12/ghostrender
 
 # pnpm
-pnpm add -D ghostrender
+pnpm add -D @anoopsingh12/ghostrender
 ```
 
 > **Peer dependency:** React ≥ 16.8 is required.
@@ -85,7 +85,7 @@ pnpm add -D ghostrender
 Drop `useGhostRender` at the top of any function component. That's it.
 
 ```tsx
-import { useGhostRender } from 'ghostrender';
+import { useGhostRender } from '@anoopsingh12/ghostrender';
 
 interface ProfileCardProps {
   userId: string;
@@ -144,7 +144,7 @@ Open [http://localhost:5173](http://localhost:5173). The demo includes:
 ### `useGhostRender(options)`
 
 ```ts
-import { useGhostRender } from 'ghostrender';
+import { useGhostRender } from '@anoopsingh12/ghostrender';
 
 const { renderCount, unnecessaryRenderCount } = useGhostRender(options);
 ```
@@ -201,7 +201,7 @@ import type {
   UseGhostRenderResult,
   PropsOrState,
   RenderDelta,
-} from 'ghostrender';
+} from '@anoopsingh12/ghostrender';
 ```
 
 ```ts
@@ -602,13 +602,13 @@ function ThemeButton() {
 GhostRender is written in strict TypeScript and ships full `.d.ts` declarations. No `@types` package needed.
 
 ```ts
-import { useGhostRender } from 'ghostrender';
+import { useGhostRender } from '@anoopsingh12/ghostrender';
 import type {
   UseGhostRenderOptions,
   UseGhostRenderResult,
   PropsOrState,
   RenderDelta,
-} from 'ghostrender';
+} from '@anoopsingh12/ghostrender';
 
 // The hook is fully typed — options and return are inferred
 const result: UseGhostRenderResult = useGhostRender({
@@ -639,7 +639,7 @@ Use `silent: true` + `onUnnecessaryRender` to write automated assertions about r
 
 ```tsx
 import { renderHook, render } from '@testing-library/react';
-import { useGhostRender } from 'ghostrender';
+import { useGhostRender } from '@anoopsingh12/ghostrender';
 
 describe('MyComponent render efficiency', () => {
   it('does not re-render unnecessarily when props are unchanged', () => {
@@ -664,7 +664,7 @@ Or test the hook directly:
 
 ```ts
 import { renderHook } from '@testing-library/react';
-import { useGhostRender } from 'ghostrender';
+import { useGhostRender } from '@anoopsingh12/ghostrender';
 
 it('flags a render as unnecessary when props are identical', () => {
   const cb = jest.fn();

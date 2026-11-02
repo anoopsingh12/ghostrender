@@ -1,5 +1,5 @@
 {
-  "name": "ghostrender",
+  "name": "@anoopsingh12/ghostrender",
   "version": "1.0.0",
   "description": "A dev-only React hook that detects and reports unnecessary component re-renders with zero production overhead.",
   "main": "./dist/cjs/index.js",

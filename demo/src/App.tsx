@@ -15,8 +15,8 @@ import React, {
   useRef,
   useEffect,
 } from 'react'
-import { useGhostRender } from 'ghostrender'
-import type { RenderDelta } from 'ghostrender'
+import { useGhostRender } from '@anoopsingh12/ghostrender'
+import type { RenderDelta } from '@anoopsingh12/ghostrender'
 
 // ─────────────────────────────────────────────────────────────
 // Types
@@ -567,7 +567,7 @@ export default function App() {
           reach production. Zero overhead, full visibility.
         </p>
         <div className="hero-chips">
-          <span className="chip">🔧 npm i ghostrender</span>
+          <span className="chip">🔧 npm i @anoopsingh12/ghostrender</span>
           <span className="chip">⚛️ React ≥ 16.8</span>
           <span className="chip">📦 Zero prod overhead</span>
           <span className="chip">🔷 TypeScript</span>
@@ -791,7 +791,7 @@ useGhostRender({
           Built with ❤️ to make React performance visible ·{' '}
           <a href="https://github.com/anoopsingh12/ghostrender" target="_blank" rel="noreferrer">GitHub</a>
           {' '}·{' '}
-          <a href="https://www.npmjs.com/package/ghostrender" target="_blank" rel="noreferrer">npm</a>
+          <a href="https://www.npmjs.com/package/@anoopsingh12/ghostrender" target="_blank" rel="noreferrer">npm</a>
           {' '}·{' '}
           MIT License
         </p>
